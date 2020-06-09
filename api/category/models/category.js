@@ -5,6 +5,13 @@
  */
 
 module.exports = {
+  beforeSave: async (model, attrs, options) => {
+    console.log('category beforeSave', attrs);
+    if (attrs.name) {
+      console.log('category beforeSave', attrs.name);
+      attrs.slug = slugify(attrs.name, {lower: true});
+    }
+  },
   // Before saving a value.
   // Fired before an `insert` or `update` query.
   // beforeSave: async (model, attrs, options) => {},

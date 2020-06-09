@@ -11,6 +11,9 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
