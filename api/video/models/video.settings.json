@@ -17,11 +17,25 @@
     "description": {
       "type": "richtext"
     },
-    "people": {
+    "guests": {
       "collection": "person"
     },
     "tags": {
       "collection": "tag"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links-group.link"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "facebook_id": {
+      "type": "string"
+    },
+    "hosts": {
+      "collection": "person"
     }
   }
 }

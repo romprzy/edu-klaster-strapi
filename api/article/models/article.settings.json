@@ -44,6 +44,11 @@
     },
     "fact": {
       "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links-group.link"
     }
   }
 }

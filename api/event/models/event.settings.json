@@ -34,6 +34,9 @@
     },
     "tags": {
       "collection": "tag"
+    },
+    "published": {
+      "type": "boolean"
     }
   }
 }

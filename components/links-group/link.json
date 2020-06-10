@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_links_group_links",
+  "info": {
+    "name": "link",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "youtube",
+        "other"
+      ]
+    }
+  }
+}
