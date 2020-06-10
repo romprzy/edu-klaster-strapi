@@ -35,6 +35,12 @@
     },
     "links": {
       "type": "json"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "published": {
+      "type": "boolean"
     }
   }
 }
